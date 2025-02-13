@@ -11,7 +11,8 @@ int sum(const vector<int>& arr) {
         return arr[0] + sum(newArr);
     }
 }
-
+ 
+ 
 int main() {
     vector<int> numbers = {1, 2, 3, 4, 5};
     cout << "The sum of the elements is: " << sum(numbers) << endl;
