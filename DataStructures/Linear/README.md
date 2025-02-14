@@ -38,5 +38,12 @@ This section contains implementations and explanations of **Linear Data Structue
 
 ## 📝 Theory & Explanation
 
+### Definition: 
+-Static Array is contiguous block of memory, that has indexed access and fixed size
+-Dynamic Array is also contiguous block of memory, but do memory rellocation when memory is full
+
+### Static vs Dynamic:
+-Static array: Declared with a fixed size, stored in a stack memory (faster but limited), Cannot resize dynamically.
+-Dynamic array: Use heap memory, slower but larger, automatic resize
 
 ---
