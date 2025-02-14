@@ -16,20 +16,8 @@ This section contains implementations and explanations of **Linear Data Structue
 | Dynamic array | [DynamicArray.cpp](./DynamicArray.cpp) |
 | Linked List | [LinkedList.cpp](./LinkedList.cpp) |
 
-## 📝 Theory & Explanation
-###     Arrays
-
-
-## 💡 Practice Problems
-- 🔥 **LeetCode:** [Problem Name](https://leetcode.com/problems/example/)
-- 🏆 **Codeforces:** [Problem Name](https://codeforces.com/problemset/problem/example)
-- 📚 **Additional Resources:** Link to external references.
-
+# Arrays:
 ---
-
-### **📌 README.md for `Array` Folder**
-Here’s the **specific README.md** for the `Array` folder inside `DataStructures/Array/`.
-
 
 ## 📖 Time Complexity of Array Operations
 
@@ -47,18 +35,6 @@ Here’s the **specific README.md** for the `Array` folder inside `DataStructure
 
 ---
 
-## 🚀 Implementations
-| Algorithm / Data Structure | Code |
-|----------------------------|------|
-| Static Array Implementation | [StaticArray.cpp](./StaticArray.cpp) |
-| Dynamic Array (Manual Implementation) | [DynamicArray.cpp](./DynamicArray.cpp) |
-| Custom C++ Vector | [CustomVector.cpp](./CustomVector.cpp) |
-| Prefix Sum Array | [PrefixSum.cpp](./PrefixSum.cpp) |
-| Sliding Window Technique | [SlidingWindow.cpp](./SlidingWindow.cpp) |
-| Two Pointers Technique | [TwoPointers.cpp](./TwoPointers.cpp) |
-
----
-
 ## 📝 Theory & Explanation
 ### 📌 **Static vs. Dynamic Arrays**
 - **Static Array:** Fixed size, allocated at compile-time.
@@ -73,15 +49,5 @@ A dynamic array (like `std::vector`) **doubles its size** when full, reducing ov
 ### 📌 **Memory Usage**
 - **Static Array:** Memory allocated at **compile-time**.
 - **Dynamic Array:** Uses `new[]` and `delete[]` in C++.
-
----
-
-## 💡 Common Array Problems (LeetCode / Codeforces)
-| Problem | Difficulty | Solution |
-|---------|-----------|----------|
-| 🔥 [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Solution](./TwoSum.cpp) |
-| 🔥 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Solution](./BuySellStock.cpp) |
-| 🔥 [Kadane’s Algorithm (Max Subarray Sum)](https://leetcode.com/problems/maximum-subarray/) | Medium | [Solution](./Kadane.cpp) |
-| 🔥 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Solution](./SlidingWindowMaximum.cpp) |
 
 ---
