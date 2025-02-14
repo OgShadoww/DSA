@@ -1,7 +1,7 @@
 # 📂 [Leniar DS] - Data Structures & Algorithms
 
 ## 📌 Overview
-This section contains implementations and explanations of **[Folder Name]** in C++. It includes fundamental concepts, operations, and real-world applications.
+This section contains implementations and explanations of **Linear Data Structues** in C++. It includes fundamental concepts, operations, and real-world applications.
 
 ## 📖 Topics Covered
 ✅ **Basic Concept**  
@@ -11,10 +11,10 @@ This section contains implementations and explanations of **[Folder Name]** in C
 ✅ **LeetCode / Codeforces Practice Problems**
 
 ## 🚀 Implementations
-| Algorithm / Data Structure | Code |
+| Data Structure | Code |
 |----------------------------|------|
-| Example 1 | [Example1.cpp](./Example1.cpp) |
-| Example 2 | [Example2.cpp](./Example2.cpp) |
+| Dynamic array | [DynamicArray.cpp](./DynamicArray.cpp) |
+| Linked List | [LinkedList.cpp](./LinkedList.cpp) |
 
 ## 📝 Theory & Explanation
 📌 **How it works:** Brief explanation of the concept.  
