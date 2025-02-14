@@ -17,9 +17,8 @@ This section contains implementations and explanations of **Linear Data Structue
 | Linked List | [LinkedList.cpp](./LinkedList.cpp) |
 
 ## 📝 Theory & Explanation
-📌 **How it works:** Brief explanation of the concept.  
-📌 **Operations & Complexity:** Table of common operations.  
-📌 **Real-World Use Cases:** Where it is used in real applications.  
+### Arrays
+
 
 ## 💡 Practice Problems
 - 🔥 **LeetCode:** [Problem Name](https://leetcode.com/problems/example/)
