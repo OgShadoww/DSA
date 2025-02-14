@@ -17,7 +17,7 @@ This section contains implementations and explanations of **Linear Data Structue
 | Linked List | [LinkedList.cpp](./LinkedList.cpp) |
 
 ## 📝 Theory & Explanation
-### Arrays
+###     Arrays
 
 
 ## 💡 Practice Problems
