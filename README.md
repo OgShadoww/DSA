@@ -25,7 +25,7 @@ This repository contains **implementations of fundamental data structures and al
 ---
 
 ## 🏗️ Data Structures
-✅ **Linear Structures:** [Dynamic array](./DataStructures/Linear/DynamicArray.cpp), [Linked List](./DataStructures/Linear/LinkedList.cpp), [Queue](./DataStructures/Linear/Queue.cpp), [Stack](./DataStructures/Linear/Stack.cpp), [Doubly Linked List](./DataStructures/Linear/DoublyLinkedList.cpp), [README](./DataStructures/Linear/README.md)
+✅ **Linear Structures:** [Dynamic array](./DataStructures/Linear/DynamicArray.cpp), [Linked List](./DataStructures/Linear/LinkedList.cpp), [Queue](./DataStructures/Linear/Queue.cpp), [Stack](./DataStructures/Linear/Stack.cpp), [Doubly Linked List](./DataStructures/Linear/DoublyLinkedList.cpp)
 ✅ **Trees:** [Binary Tree](./DataStructures/Tree/BinaryTree.cpp), [AVL Tree](./DataStructures/Tree/AVLTree.cpp), [Segment Tree](./DataStructures/Tree/SegmentTree.cpp), [Trie](./DataStructures/Tree/Trie.cpp)  
 ✅ **Graphs:** [Adjacency List](./DataStructures/Graph/AdjacencyList.cpp), [Adjacency Matrix](./DataStructures/Graph/AdjacencyMatrix.cpp)  
 ✅ **Hashing:** [Hash Table](./DataStructures/HashTable/HashTable.cpp), [Bloom Filter](./DataStructures/HashTable/BloomFilter.cpp)  
