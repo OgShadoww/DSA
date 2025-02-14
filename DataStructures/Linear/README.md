@@ -7,7 +7,7 @@ This section contains implementations and explanations of **Linear Data Structue
 ✅ **Basic Concept**  
 ✅ **Time Complexity**  
 ✅ **Implementation in C++**  
-✅ **Common Problems & Solutions**  
+✅ **Efficient Algorithms (Two Pointers, Sliding Window, Kadane’s Algorithm)**  
 ✅ **LeetCode / Codeforces Practice Problems**
 
 ## 🚀 Implementations
@@ -30,19 +30,6 @@ This section contains implementations and explanations of **Linear Data Structue
 ### **📌 README.md for `Array` Folder**
 Here’s the **specific README.md** for the `Array` folder inside `DataStructures/Array/`.
 
-```md
-# 📂 Array - Data Structure
-
-## 📌 Overview
-Arrays are the **most fundamental** data structure in computer science. They provide a **contiguous memory allocation**, making them efficient for indexed access.
-
-In this section, we cover:
-✅ **Static vs Dynamic Arrays**  
-✅ **Operations (Insertion, Deletion, Search, Access, Resize)**  
-✅ **Efficient Algorithms (Two Pointers, Sliding Window, Kadane’s Algorithm)**  
-✅ **Real-World Applications**  
-
----
 
 ## 📖 Time Complexity of Array Operations
 
