@@ -16,8 +16,10 @@ This section contains implementations and explanations of **Linear Data Structue
 | Dynamic array | [DynamicArray.cpp](./DynamicArray.cpp) |
 | Linked List | [LinkedList.cpp](./LinkedList.cpp) |
 
-# Arrays:
+
 ---
+
+# Arrays:
 
 ## 📖 Time Complexity of Array Operations
 
@@ -33,21 +35,8 @@ This section contains implementations and explanations of **Linear Data Structue
 | Search (Linear Search) | **O(n)** |
 | Search (Binary Search - Sorted) | **O(log n)** |
 
----
 
 ## 📝 Theory & Explanation
-### 📌 **Static vs. Dynamic Arrays**
-- **Static Array:** Fixed size, allocated at compile-time.
-- **Dynamic Array:** Can grow/shrink, allocated at runtime.
 
-### 📌 **Contiguous Memory Allocation**
-Arrays are stored in contiguous memory blocks, allowing **O(1) access** via indexing.
-
-### 📌 **Dynamic Resizing Strategy**
-A dynamic array (like `std::vector`) **doubles its size** when full, reducing overall complexity.
-
-### 📌 **Memory Usage**
-- **Static Array:** Memory allocated at **compile-time**.
-- **Dynamic Array:** Uses `new[]` and `delete[]` in C++.
 
 ---
