@@ -26,8 +26,8 @@ This repository contains **implementations of fundamental data structures and al
 
 ## 🏗️ Data Structures
 ✅ **Linear Structures:** [Dynamic array](./DataStructures/Linear/DynamicArray.cpp), [Linked List](./DataStructures/Linear/LinkedList.cpp), [Queue](./DataStructures/Linear/Queue.cpp), [Stack](./DataStructures/Linear/Stack.cpp), [Doubly Linked List](./DataStructures/Linear/DoublyLinkedList.cpp), [README](./DataStructures/Linear/README.md)   
-✅ **Trees:** [Binary Tree](./DataStructures/Tree/BinaryTree.cpp), [AVL Tree](./DataStructures/Tree/AVLTree.cpp), [Segment Tree](./DataStructures/Tree/SegmentTree.cpp), [Trie](./DataStructures/Tree/Trie.cpp)  
-✅ **Graphs:** [Adjacency List](./DataStructures/Graph/AdjacencyList.cpp), [Adjacency Matrix](./DataStructures/Graph/AdjacencyMatrix.cpp)  
+✅ **Trees:** [Binary Tree](./DataStructures/Tree/BinaryTree.cpp), [AVL Tree](./DataStructures/Tree/AVLTree.cpp), [Segment Tree](./DataStructures/Tree/SegmentTree.cpp), [Trie](./DataStructures/Tree/Trie.cpp), README](./DataStructures/Trees/README.md)   
+✅ **Graphs:** [Adjacency List](./DataStructures/Graph/AdjacencyList.cpp), [Adjacency Matrix](./DataStructures/Graph/AdjacencyMatrix.cpp), README](./DataStructures/Graphs/README.md)   
 ✅ **Hashing:** [Hash Table](./DataStructures/HashTable/HashTable.cpp), [Bloom Filter](./DataStructures/HashTable/BloomFilter.cpp)  
 ✅ **Heaps:** [Min Heap](./DataStructures/Heap/MinHeap.cpp), [Max Heap](./DataStructures/Heap/MaxHeap.cpp), [Priority Queue](./DataStructures/Heap/PriorityQueue.cpp)  
 ✅ **Disjoint Set (Union-Find):** [Union-Find](./DataStructures/DisjointSet/UnionFind.cpp), [Kruskal’s Algorithm](./DataStructures/DisjointSet/KruskalAlgorithm.cpp)  
