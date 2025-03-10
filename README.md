@@ -1,4 +1,4 @@
-# 🚀 Data Structures & Algorithms (DSA) in C++
+# 🚀 Data Structures & Algorithms (DSA) in C++ & C
 
 ![GitHub Repo Stars](https://img.shields.io/github/stars/OgShadoww/DSA?style=social)
 ![GitHub Issues](https://img.shields.io/github/issues/OgShadoww/DSA)
