@@ -1,7 +1,6 @@
 # Searching Alogorithms:
 
 ## Definition:
----
 Searching alogrithms uses for finding an elements in Data structure. Most common algorithm - Binary search. 
 
 

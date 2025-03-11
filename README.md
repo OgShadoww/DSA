@@ -12,8 +12,8 @@ This repository contains **implementations of fundamental data structures and al
 ---
 
 ## 📖 Algorithms
-✅ **Sorting:** [Bubble Sort](./Algorithms/Sorting/BubbleSort.cpp), [Merge Sort](./Algorithms/Sorting/MergeSort.cpp), [Quick Sort](./Algorithms/Sorting/QuickSort.cpp), [Selection Sort](./Algorithms/Sorting/SelectionSort.cpp)  
-✅ **Search:** [Binary Search](./Algorithms/Search/BinarySearch.cpp), [Linear Search](./Algorithms/Search/LinearSearch.cpp)  
+✅ **Sorting:** [Bubble Sort](./Algorithms/Sorting/BubbleSort.c), [Merge Sort](./Algorithms/Sorting/MergeSort.c), [Quick Sort](./Algorithms/Sorting/QuickSort.c), [Selection Sort](./Algorithms/Sorting/SelectionSort.c)  
+✅ **Search:** [Binary Search](./Algorithms/Search/BinarySearch.c), [Linear Search](./Algorithms/Search/LinearSearch.c)  
 ✅ **Graphs:** [DFS](./Algorithms/Graph/DFS.cpp), [BFS](./Algorithms/Graph/BFS.cpp), [Dijkstra](./Algorithms/Graph/Dijkstra.cpp)  
 ✅ **Dynamic Programming:** [Knapsack](./Algorithms/DynamicProgramming/Knapsack.cpp), [LCS](./Algorithms/DynamicProgramming/LongestCommonSubsequence.cpp)  
 ✅ **Backtracking:** [N-Queens](./Algorithms/Backtracking/NQueens.cpp), [Word Search](./Algorithms/Backtracking/WordSearch.cpp)  
