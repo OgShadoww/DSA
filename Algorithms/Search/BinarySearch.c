@@ -1,20 +1,23 @@
 #include<stdio.h>
 
-int binarySearch(int vector[], int n, int mid) {
-    if(vector[mid] < n) {
-	int mid = mid / 2;
-        return binarySearch(vector, n, mid);
+int binarySearch(int vector[], int left, int right, int n) {
+    while(left < right) {
+        int mid = (left + right) / 2;
+        if(n > vector[mid]) {
+            left = mid;
+        }
+        if(n < vector[mid]) {
+            right = mid;
+        }
+        if(n == vector[mid]) {
+            return mid;
+            break;
+        }
     }
-    if(vector[mid] > n) {
-        int mid = mid / 2 + mid + 1;
-	return binarySearch(vector, n, mid);
-    }
-    if(vector[mid] == n) return mid;
-    if(vector[mid] != n) return -1;
+    return -1;
 }
 
 int main() {
     int vector[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-
-    binarySearch(vector, 4, 5);
+    printf("%d", binarySearch(vector, 0, 9, 0)); 
 }
