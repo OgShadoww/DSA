@@ -8,18 +8,28 @@ void swap(int *a, int *b) {
   return;
 }
 
-void bubbleSort(int arr[]) {
-  
+void bubbleSort(int arr[], int n) {
+  for(int i = 0; i < n; i++) {
+    for(int j = i; j < n; j++) {
+      if(arr[i] > arr[j]) {
+        swap(&arr[i], &arr[j]); 
+      }
+    }
+  }
 
   return;
 }
 
 int main() {
   int arr[6] = {5, 3, 1, 2, 7, 4};
-  printf("%d %d", arr[0], arr[2]);
-  swap(&arr[0], &arr[2]);
+  for(int i = 0; i < 6; i++) {
+    printf("%d ", arr[i]);
+  }
   printf("\n");
-  printf("%d %d", arr[0], arr[2]);
+  bubbleSort(arr, 6);
+  for(int i = 0; i < 6; i++) {
+    printf("%d ", arr[i]);
+  }
 
 	return 0;
 }
