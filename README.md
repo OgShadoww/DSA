@@ -1,7 +1,7 @@
 # 🚀 Data Structures & Algorithms (DSA) in C++ & C
 
 ## 📌 Overview
-This repository contains **implementations of fundamental data structures and algorithms** in C++ with explanations and examples.  
+This repository contains **implementations of fundamental data structures and algorithms** in C++/C with explanations and examples.  
 <!-- It also includes **problem solutions from LeetCode, Codeforces, and AtCoder** to demonstrate real-world applications of DSA.   -->
 
 > **🎯 Goal**: To build a **comprehensive learning resource** for technical interviews, competitive programming, and deep CS understanding.
