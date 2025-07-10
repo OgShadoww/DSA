@@ -36,17 +36,6 @@ This repository contains **implementations of fundamental data structures and al
 
 ---
 
-## 📊 Problems (LeetCode / Codeforces)
-This repository contains **problem solutions from LeetCode, Codeforces, and AtCoder**, categorized by topic.  
-
-- **LeetCode:** [Two Sum](./Problems/LeetCode/TwoSum.cpp), [Longest Palindrome](./Problems/LeetCode/LongestPalindrome.cpp)  
-- **Codeforces:** [Problem Set A](./Problems/Codeforces/ProblemSetA.cpp), [Problem Set B](./Problems/Codeforces/ProblemSetB.cpp)  
-- **AtCoder:** [ABC123](./Problems/AtCoder/ABC123.cpp)  
-
-📌 **Complete list: [Problems](./Problems/README.md)**  
-
----
-
 ## 🛠️ How to Use This Repository?
 ### 🔹 **1. Clone the repository**
 ```sh
