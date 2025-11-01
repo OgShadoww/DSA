@@ -5,9 +5,9 @@ typedef struct array {
   int size;
   int capacity;
   int *array;
-} vector;
+} array;
 
-array init_array();
+array init_array());
 int get(array a, int i);
 void push(array &a, int v);
 void pop(array &a);
