@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include"../../../include/array.h"
 
-void init_array(array *a, size_t initial_cap) {
+void init_array(array *a) {
   a->size = 0;
   a->capacity = 64;
   a->array = malloc(a->capacity);

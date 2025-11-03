@@ -9,7 +9,7 @@ typedef struct array {
   int *array;
 } array;
 
-void init_array(array *a, size_t initial_cap);
+void init_array(array *a);
 int get(array *a, int i);
 void push(array *a, int v);
 void pop(array *a);
