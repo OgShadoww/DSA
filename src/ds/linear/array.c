@@ -5,14 +5,15 @@
 void init_array(array *a) {
   a->size = 0;
   a->capacity = 64;
-  a->array = malloc(a->capacity);
-  return;
+  a->array = malloc(a->capacity*sizeof(int));
+  if(!a->array) perror("Malloc failled"); exit(0);
 }
 
 void ensure_capacity(array *a) {
   if(a->capacity <= a->size) {
     a->capacity *= 2;
     a->array = realloc(a->array, a->capacity);
+    if(!a->array) perror("Realloc failled"); exit(0);
   }
   return;
 }
@@ -33,7 +34,7 @@ void push(array *a, int v) {
 }
 
 void pop(array *a) {
-  i(a->size <= 0) {
+  if(a->size <= 0) {
     perror("The array is empty to pop element");
     exit(-1);
   }
