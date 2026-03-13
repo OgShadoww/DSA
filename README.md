@@ -1,4 +1,4 @@
-# 🚀 Data Structures & Algorithms (DSA) in C++ & C
+# 🚀 Data Structures & Algorithms (DSA) in C
 
 ## 📌 Overview
 This repository contains **implementations of fundamental data structures and algorithms** in C++/C with explanations and examples.  
