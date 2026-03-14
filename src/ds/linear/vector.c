@@ -18,7 +18,7 @@ vector *init_vector(size_t type_size) {
 }
 
 int append(vector *v, void *data) {
-  if(sizeof(*data) != v->type_size) return -1;
+  if((int)sizeof(*data) != (int)v->type_size) return -1;
 
   if(v->size + 1 == v->capacity) {
     v->capacity *= 2;
@@ -33,13 +33,15 @@ int append(vector *v, void *data) {
 
 int main() {
   vector *v = init_vector(sizeof(char));
+  printf("%d\n", (int)v->type_size);
+  printf("%d\n", (int)sizeof(int));
 
   char c = 'c';
-  //int a = 32;
+  int a = 33;
   append(v, &c);
-  //append(v, &a);
+  append(v, &a);
 
   for(int i = 0; i < v->size; i++) {
-    printf("%c", *(int*)v->data+i);
+    printf("%c\n", *(int*)v->data+i);
   }
 }
